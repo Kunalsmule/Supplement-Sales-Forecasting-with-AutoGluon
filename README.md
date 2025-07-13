@@ -2,8 +2,11 @@
 
 This notebook demonstrates how to use **AutoGluon Time Series** to forecast supplement sales **Revenue** and **Units Sold** based on historical data and relevant features.
 
----
 
+<img src="image.png" alt="Project Intro" width="300"/>
+
+
+---
 ## Notebook Steps
 
 ### 1. Installation
