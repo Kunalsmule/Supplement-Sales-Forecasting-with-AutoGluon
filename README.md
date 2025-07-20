@@ -1,13 +1,33 @@
 # Supplement Sales Forecasting with AutoGluon
 
-This notebook demonstrates how to use **AutoGluon Time Series** to forecast supplement sales **Revenue** and **Units Sold** based on historical data and relevant features.
 
 
 <img src="image.png" alt="Project Intro" width="300"/>
 
 
 ---
-## Notebook Steps
+
+This project implements a comprehensive time series forecasting solution for predicting supplement sales revenue and units sold using AutoGluon's automated machine learning framework. The system leverages advanced feature engineering techniques including lag variables, rolling statistics, and seasonal patterns to generate accurate 12-week forecasts for business planning and inventory management.
+
+## Key Components
+
+### Data Preprocessing
+Handles missing values, outlier detection, and data quality assurance to ensure robust model training.
+
+### Feature Engineering
+Creates sophisticated temporal features including lag variables at multiple time intervals, rolling averages, seasonal decomposition, and time-based covariates such as holiday effects and promotional periods.
+
+### AutoGluon Integration
+Utilizes automated model selection and ensemble methods to optimize forecasting performance without manual hyperparameter tuning.
+
+### Visualization
+Generates comprehensive trend analysis and forecast visualizations using matplotlib and seaborn for business insights.
+
+## Applications
+
+The forecasting system generates 12-week predictions suitable for inventory planning, revenue budgeting, marketing strategy optimization, and supply chain management decisions.
+
+---
 
 ### 1. Installation
 Install necessary libraries including `pip`, `setuptools`, `wheel`, `autogluon`, and `uv`.
